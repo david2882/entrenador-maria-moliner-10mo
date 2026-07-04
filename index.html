@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#8b1f2d" />
+  <title>Entrenador María Moliner 10mo</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Entrenador María Moliner 10mo</h1>
+    <p>App PWA para practicar pregón, deletreo, acepción, banco de errores y tutor socrático.</p>
+  </header>
+  <main>
+    <section id="dashboard" class="dashboard"></section>
+    <nav class="tabs" aria-label="Modos de práctica">
+      <button data-view="apr" onclick="view('apr')" class="tab active">Aprender</button>
+      <button data-view="mem" onclick="view('mem')" class="tab">Memorizar</button>
+      <button data-view="oral" onclick="view('oral')" class="tab">Práctica oral</button>
+      <button data-view="sim" onclick="view('sim')" class="tab">Simulacro</button>
+      <button data-view="err" onclick="view('err')" class="tab">Banco de errores</button>
+      <button data-view="prog" onclick="view('prog')" class="tab">Progreso</button>
+    </nav>
+    <section id="view" class="panel"></section>
+  </main>
+  <script src="words.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
