@@ -1,4 +1,4 @@
-const CACHE_NAME = 'moliner-10mo-v5';
+const CACHE_NAME = 'moliner-10mo-v6';
 const ASSETS = ['./','./index.html','./app.js','./words.js','./style.css','./manifest.json','./assets/icon.svg'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS)));
