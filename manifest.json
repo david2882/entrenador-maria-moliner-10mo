@@ -1,0 +1,10 @@
+{
+  "name": "Entrenador María Moliner 10mo",
+  "short_name": "Moliner 10mo",
+  "description": "PWA para practicar ortografía, pregón, banco de errores y tutor socrático.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f3ee",
+  "theme_color": "#8b1f2d",
+  "icons": [{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml"}]
+}
